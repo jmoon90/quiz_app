@@ -19,6 +19,8 @@
 		6533EFD0191E9128005F4C3B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6533EFB8191E9128005F4C3B /* UIKit.framework */; };
 		6533EFD8191E9128005F4C3B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6533EFD6191E9128005F4C3B /* InfoPlist.strings */; };
 		6533EFDA191E9128005F4C3B /* QuizTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6533EFD9191E9128005F4C3B /* QuizTests.m */; };
+		6533EFE6191E939A005F4C3B /* BNRQuizViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6533EFE4191E939A005F4C3B /* BNRQuizViewController.m */; };
+		6533EFE7191E939A005F4C3B /* BNRQuizViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6533EFE5191E939A005F4C3B /* BNRQuizViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,9 @@
 		6533EFD5191E9128005F4C3B /* QuizTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "QuizTests-Info.plist"; sourceTree = "<group>"; };
 		6533EFD7191E9128005F4C3B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6533EFD9191E9128005F4C3B /* QuizTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QuizTests.m; sourceTree = "<group>"; };
+		6533EFE3191E939A005F4C3B /* BNRQuizViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNRQuizViewController.h; sourceTree = "<group>"; };
+		6533EFE4191E939A005F4C3B /* BNRQuizViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNRQuizViewController.m; sourceTree = "<group>"; };
+		6533EFE5191E939A005F4C3B /* BNRQuizViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BNRQuizViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +127,9 @@
 				6533EFBD191E9128005F4C3B /* InfoPlist.strings */,
 				6533EFC0191E9128005F4C3B /* main.m */,
 				6533EFC2191E9128005F4C3B /* Quiz-Prefix.pch */,
+				6533EFE3191E939A005F4C3B /* BNRQuizViewController.h */,
+				6533EFE4191E939A005F4C3B /* BNRQuizViewController.m */,
+				6533EFE5191E939A005F4C3B /* BNRQuizViewController.xib */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -221,6 +229,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6533EFBF191E9128005F4C3B /* InfoPlist.strings in Resources */,
+				6533EFE7191E939A005F4C3B /* BNRQuizViewController.xib in Resources */,
 				6533EFC7191E9128005F4C3B /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -242,6 +251,7 @@
 			files = (
 				6533EFC1191E9128005F4C3B /* main.m in Sources */,
 				6533EFC5191E9128005F4C3B /* BNRAppDelegate.m in Sources */,
+				6533EFE6191E939A005F4C3B /* BNRQuizViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
